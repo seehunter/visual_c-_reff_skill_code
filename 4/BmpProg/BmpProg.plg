@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BmpProg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/BmpProg.res" /d "_DEBUG" /d "_AFXDLL" "D:\Á·Ï°\BmpProg\BmpProg.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP131.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/BmpProg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"D:\Á·Ï°\BmpProg\BmpProgCtrl.cpp"
+"D:\Á·Ï°\BmpProg\BmpProg.cpp"
+"D:\Á·Ï°\BmpProg\BmpProgDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP131.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP132.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/BmpProg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"D:\Á·Ï°\BmpProg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP132.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP133.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/BmpProg.pdb" /debug /machine:I386 /out:"Debug/BmpProg.exe" /pdbtype:sept 
+".\Debug\BmpProgCtrl.obj"
+".\Debug\BmpProg.obj"
+".\Debug\BmpProg.res"
+".\Debug\BmpProgDlg.obj"
+".\Debug\StdAfx.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP133.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BmpProgCtrl.cpp
+D:\Á·Ï°\BmpProg\BmpProgCtrl.cpp(74) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+D:\Á·Ï°\BmpProg\BmpProgCtrl.cpp(100) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+D:\Á·Ï°\BmpProg\BmpProgCtrl.cpp(127) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\Á·Ï°\BmpProg\BmpProgCtrl.cpp(127) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+BmpProg.cpp
+BmpProgDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+BmpProg.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: JpgView - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/JpgView.res" /d "_DEBUG" /d "_AFXDLL" "E:\Visual C++编程技巧与代码参考\代码\第10章\JpgView\JpgView.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP49D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/JpgView.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Visual C++编程技巧与代码参考\代码\第10章\JpgView\JpgView.cpp"
+"E:\Visual C++编程技巧与代码参考\代码\第10章\JpgView\JpgViewDoc.cpp"
+"E:\Visual C++编程技巧与代码参考\代码\第10章\JpgView\JpgViewView.cpp"
+"E:\Visual C++编程技巧与代码参考\代码\第10章\JpgView\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP49D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP49E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/JpgView.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Visual C++编程技巧与代码参考\代码\第10章\JpgView\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP49E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP49F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/JpgView.pdb" /debug /machine:I386 /out:"Debug/JpgView.exe" /pdbtype:sept 
+".\Debug\JpgView.obj"
+".\Debug\JpgViewDoc.obj"
+".\Debug\JpgViewView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\JpgView.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP49F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+JpgView.cpp
+JpgViewDoc.cpp
+JpgViewView.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+JpgView.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

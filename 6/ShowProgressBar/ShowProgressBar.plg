@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ShowProgressBar - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ShowProgressBar.res" /d "_DEBUG" /d "_AFXDLL" "G:\书\《Visual C++编程技巧大全（大纲）》_NEW--最终版\本书源码\第6章\ShowProgressBar\ShowProgressBar.rc"" 
+Creating temporary file "C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSPE3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ShowProgressBar.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"G:\书\《Visual C++编程技巧大全（大纲）》_NEW--最终版\本书源码\第6章\ShowProgressBar\ShowProgressBar.cpp"
+"G:\书\《Visual C++编程技巧大全（大纲）》_NEW--最终版\本书源码\第6章\ShowProgressBar\MainFrm.cpp"
+"G:\书\《Visual C++编程技巧大全（大纲）》_NEW--最终版\本书源码\第6章\ShowProgressBar\ShowProgressBarDoc.cpp"
+"G:\书\《Visual C++编程技巧大全（大纲）》_NEW--最终版\本书源码\第6章\ShowProgressBar\ShowProgressBarView.cpp"
+"G:\书\《Visual C++编程技巧大全（大纲）》_NEW--最终版\本书源码\第6章\ShowProgressBar\CprogStatusBar.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSPE3.tmp" 
+Creating temporary file "C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSPE4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ShowProgressBar.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"G:\书\《Visual C++编程技巧大全（大纲）》_NEW--最终版\本书源码\第6章\ShowProgressBar\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSPE4.tmp" 
+Creating temporary file "C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSPE5.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ShowProgressBar.pdb" /debug /machine:I386 /out:"Debug/ShowProgressBar.exe" /pdbtype:sept 
+".\Debug\ShowProgressBar.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MainFrm.obj"
+".\Debug\ShowProgressBarDoc.obj"
+".\Debug\ShowProgressBarView.obj"
+".\Debug\ShowProgressBar.res"
+".\Debug\CprogStatusBar.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSPE5.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ShowProgressBar.cpp
+MainFrm.cpp
+ShowProgressBarDoc.cpp
+ShowProgressBarView.cpp
+CprogStatusBar.cpp
+G:\书\《Visual C++编程技巧大全（大纲）》_NEW--最终版\本书源码\第6章\ShowProgressBar\CprogStatusBar.cpp(59) : error C2065: 'WM_SETMESSAGESTRING' : undeclared identifier
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+ShowProgressBar.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

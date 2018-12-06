@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ClearRecy - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ClearRecy.res" /d "_DEBUG" /d "_AFXDLL" "E:\VC++编程技巧与代码参考\代码\第13章\ClearRecy\ClearRecy.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP264.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ClearRecy.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"E:\VC++编程技巧与代码参考\代码\第13章\ClearRecy\ClearRecy.cpp"
+"E:\VC++编程技巧与代码参考\代码\第13章\ClearRecy\ClearRecyDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP264.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP265.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ClearRecy.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"E:\VC++编程技巧与代码参考\代码\第13章\ClearRecy\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP265.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ClearRecy.pdb" /debug /machine:I386 /out:"Debug/ClearRecy.exe" /pdbtype:sept  ".\Debug\ClearRecy.obj" ".\Debug\ClearRecyDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\ClearRecy.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ClearRecy.cpp
+ClearRecyDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ClearRecy.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

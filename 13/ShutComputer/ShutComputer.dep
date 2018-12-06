@@ -1,0 +1,37 @@
+# Microsoft Developer Studio Generated Dependency File, included by ShutComputer.mak
+
+.\ShutComputer.cpp : \
+	".\ShutComputer.h"\
+	".\ShutComputerDlg.h"\
+	
+
+.\ShutComputer.rc : \
+	".\res\11.bmp"\
+	".\res\clock+.ico"\
+	".\res\ShutComputer.ico"\
+	".\res\ShutComputer.rc2"\
+	
+
+.\ShutComputerDlg.cpp : \
+	".\ShutComputer.h"\
+	".\ShutComputerDlg.h"\
+	
+
+.\StdAfx.cpp : \
+	"..\..\dllinclude\memdc.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"d:\ctrldllinclude\bcmenu.h"\
+	"d:\ctrldllinclude\buttonst.h"\
+	"d:\ctrldllinclude\colorbutton.h"\
+	"d:\ctrldllinclude\colorlistctrl.h"\
+	"d:\ctrldllinclude\colorstatic.h"\
+	"d:\ctrldllinclude\ctrldemodll.h"\
+	"d:\ctrldllinclude\ctrlheader.h"\
+	"d:\ctrldllinclude\hexeditctrl.h"\
+	"d:\ctrldllinclude\iconbutton.h"\
+	"d:\ctrldllinclude\labelex.h"\
+	"d:\ctrldllinclude\rxstatic.h"\
+	"d:\ctrldllinclude\shadowbutton.h"\
+	"d:\ctrldllinclude\xpbutton.h"\
+	

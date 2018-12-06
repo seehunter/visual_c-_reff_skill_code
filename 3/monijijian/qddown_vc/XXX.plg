@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: XXX - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP36F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/XXX.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\³ÌÐò\monijijian\qddown_vc725534577255\XXXDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP36F.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/XXX.pdb" /debug /machine:I386 /out:"Debug/XXX.exe" /pdbtype:sept  ".\Debug\StdAfx.obj" ".\Debug\XXX.obj" ".\Debug\XXXDlg.obj" ".\Debug\XXX.res" "
+<h3>Output Window</h3>
+Compiling...
+XXXDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+XXX.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

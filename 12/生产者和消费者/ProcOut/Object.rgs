@@ -1,0 +1,24 @@
+HKCR
+{
+	ProcOut.Object.1 = s 'Object Class'
+	{
+		CLSID = s '{46BE1C21-DFC5-4529-A48D-E7B46E158F0E}'
+	}
+	ProcOut.Object = s 'Object Class'
+	{
+		CLSID = s '{46BE1C21-DFC5-4529-A48D-E7B46E158F0E}'
+		CurVer = s 'ProcOut.Object.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {46BE1C21-DFC5-4529-A48D-E7B46E158F0E} = s 'Object Class'
+		{
+			ProgID = s 'ProcOut.Object.1'
+			VersionIndependentProgID = s 'ProcOut.Object'
+			ForceRemove 'Programmable'
+			LocalServer32 = s '%MODULE%'
+			val AppID = s '{7FFF98C9-63D8-469F-BFE5-C7E7D7696204}'
+			'TypeLib' = s '{2A8FBC12-1D32-49F6-B4A5-E868A31DEDDC}'
+		}
+	}
+}

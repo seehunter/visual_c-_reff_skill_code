@@ -1,0 +1,42 @@
+// ProcOut.idl : IDL source for ProcOut.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (ProcOut.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(6CEC51A9-E57B-49B3-839B-880ADD12DFBD),
+		dual,
+		helpstring("IObject Interface"),
+		pointer_default(unique)
+	]
+	interface IObject : IDispatch
+	{
+		[id(1), helpstring("method Produce")] HRESULT Produce([in]double x);
+		[id(2), helpstring("method Customer")] HRESULT Customer([in]double x);
+		[propget, id(3), helpstring("property CurrentCount")] HRESULT CurrentCount([out, retval] double *pVal);
+		[propput, id(3), helpstring("property CurrentCount")] HRESULT CurrentCount([in] double newVal);
+	};
+
+[
+	uuid(2A8FBC12-1D32-49F6-B4A5-E868A31DEDDC),
+	version(1.0),
+	helpstring("ProcOut 1.0 Type Library")
+]
+library PROCOUTLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(46BE1C21-DFC5-4529-A48D-E7B46E158F0E),
+		helpstring("Object Class")
+	]
+	coclass Object
+	{
+		[default] interface IObject;
+	};
+};

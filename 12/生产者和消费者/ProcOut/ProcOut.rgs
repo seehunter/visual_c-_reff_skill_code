@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{7FFF98C9-63D8-469F-BFE5-C7E7D7696204} = s 'ProcOut'
+		'ProcOut.EXE'
+		{
+			val AppID = s {7FFF98C9-63D8-469F-BFE5-C7E7D7696204}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FontViewer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/FontViewer.res" /d "_DEBUG" /d "_AFXDLL" "D:\VC++编书\Visual C++编程技巧与代码参考\代码\第13章\FontViewer\FontViewer.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP36.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/FontViewer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VC++编书\Visual C++编程技巧与代码参考\代码\第13章\FontViewer\FontViewer.cpp"
+"D:\VC++编书\Visual C++编程技巧与代码参考\代码\第13章\FontViewer\FontViewerDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP36.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP37.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/FontViewer.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VC++编书\Visual C++编程技巧与代码参考\代码\第13章\FontViewer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP37.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/FontViewer.pdb" /debug /machine:I386 /out:"Debug/FontViewer.exe" /pdbtype:sept  ".\Debug\FontViewer.obj" ".\Debug\FontViewerDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\FontViewer.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+FontViewer.cpp
+FontViewerDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+FontViewer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

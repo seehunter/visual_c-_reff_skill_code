@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DrawButton - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/DrawButton.res" /d "_DEBUG" /d "_AFXDLL" "D:\第13章系统编程\DrawButton\DrawButton.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DrawButton.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"D:\第13章系统编程\DrawButton\DrawButtonDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13A.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DrawButton.pdb" /debug /machine:I386 /out:"Debug/DrawButton.exe" /pdbtype:sept  ".\Debug\DrawButton.obj" ".\Debug\DrawButtonDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\DrawButton.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+DrawButtonDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+DrawButton.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: QueryASCII - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/QueryASCII.res" /d "_DEBUG" /d "_AFXDLL" "E:\VC++编程技巧与代码参考\代码\第03章\QueryASCII\QueryASCII.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPDC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/QueryASCII.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"E:\VC++编程技巧与代码参考\代码\第03章\QueryASCII\QueryASCII.cpp"
+"E:\VC++编程技巧与代码参考\代码\第03章\QueryASCII\QueryASCIIDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPDC.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPDD.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/QueryASCII.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"E:\VC++编程技巧与代码参考\代码\第03章\QueryASCII\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPDD.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/QueryASCII.pdb" /debug /machine:I386 /out:"Debug/QueryASCII.exe" /pdbtype:sept  ".\Debug\QueryASCII.obj" ".\Debug\QueryASCIIDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\QueryASCII.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+QueryASCII.cpp
+QueryASCIIDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+QueryASCII.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

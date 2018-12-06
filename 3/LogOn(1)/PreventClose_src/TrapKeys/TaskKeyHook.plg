@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TaskKeyHook - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP20B.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "_WINDOWS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /Fo".\Release/" /Fd".\Release/" /FD /c 
+"D:\³ÌÐò\LogOn(1)\PreventClose_src\TrapKeys\TaskKeyHook.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP20B.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /dll /incremental:yes /pdb:".\Release/TaskKeyHook.pdb" /machine:I386 /out:"..\bin\Release/TaskKeyHook.dll" /implib:".\Release/TaskKeyHook.lib"  ".\Release\TaskKeyHook.obj" "
+<h3>Output Window</h3>
+Compiling...
+TaskKeyHook.cpp
+Linking...
+   Creating library .\Release/TaskKeyHook.lib and object .\Release/TaskKeyHook.exp
+
+
+
+<h3>Results</h3>
+TaskKeyHook.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

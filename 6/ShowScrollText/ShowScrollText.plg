@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ShowScrollText - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSP29.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ShowScrollText.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\书\《Visual C++编程技巧大全（大纲）》_NEW--最终版\本书源码\第6章\ShowScrollText\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSP29.tmp" 
+Creating temporary file "C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSP2A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ShowScrollText.pdb" /debug /machine:I386 /out:"Debug/ShowScrollText.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\ShowScrollText.obj"
+".\Debug\ShowScrollTextDoc.obj"
+".\Debug\ShowScrollTextView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ShowScrollText.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSP2A.tmp"
+<h3>Output Window</h3>
+Compiling...
+MainFrm.cpp
+Linking...
+LINK : LNK6004: Debug/ShowScrollText.exe not found or not built by the last incremental link; performing full link
+
+
+
+<h3>Results</h3>
+ShowScrollText.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DisableEdit", "DisableEdit.vcproj", "{94F67CC7-D2BF-4033-A0D6-F7AD05B3DB65}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{94F67CC7-D2BF-4033-A0D6-F7AD05B3DB65}.Debug.ActiveCfg = Debug|Win32
+		{94F67CC7-D2BF-4033-A0D6-F7AD05B3DB65}.Debug.Build.0 = Debug|Win32
+		{94F67CC7-D2BF-4033-A0D6-F7AD05B3DB65}.Release.ActiveCfg = Release|Win32
+		{94F67CC7-D2BF-4033-A0D6-F7AD05B3DB65}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

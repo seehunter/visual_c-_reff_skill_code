@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AppendSystemMenu - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSP168.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/AppendSystemMenu.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"G:\2008-1-6\书\《Visual C++编程技巧大全（大纲）》_NEW--最终版\本书源码\第6章\AppendSystemMenu\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSP168.tmp" 
+Creating temporary file "C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSP169.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/AppendSystemMenu.pdb" /debug /machine:I386 /out:"Debug/AppendSystemMenu.exe" /pdbtype:sept 
+".\Debug\AppendSystemMenu.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MainFrm.obj"
+".\Debug\AppendSystemMenuDoc.obj"
+".\Debug\AppendSystemMenuView.obj"
+".\Debug\AppendSystemMenu.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSP169.tmp"
+<h3>Output Window</h3>
+Compiling...
+MainFrm.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+AppendSystemMenu.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

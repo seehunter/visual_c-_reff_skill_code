@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SingleToolBar - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/SingleToolBar.res" /d "_DEBUG" /d "_AFXDLL" "G:\2008-1-6\书\《Visual C++编程技巧大全（大纲）》_NEW--最终版\本书源码\第6章\SingleToolBar\SingleToolBar.rc"" 
+Creating temporary file "C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSP213.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/SingleToolBar.pdb" /debug /machine:I386 /out:"Debug/SingleToolBar.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\SingleToolBar.obj"
+".\Debug\SingleToolBarDoc.obj"
+".\Debug\SingleToolBarView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\SingleToolBar.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSP213.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+SingleToolBar.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

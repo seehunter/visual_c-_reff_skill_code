@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DlgToolBar - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSP69.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DlgToolBar.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\书\《Visual C++编程技巧大全（大纲）》_NEW--最终版\本书源码\第6章\DlgToolBar\DlgToolBarDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSP69.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DlgToolBar.pdb" /debug /machine:I386 /out:"Debug/DlgToolBar.exe" /pdbtype:sept  ".\Debug\DlgToolBar.obj" ".\Debug\DlgToolBarDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\DlgToolBar.res" "
+<h3>Output Window</h3>
+Compiling...
+DlgToolBarDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+DlgToolBar.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

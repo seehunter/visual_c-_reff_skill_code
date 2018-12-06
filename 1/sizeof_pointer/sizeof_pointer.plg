@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: sizeof_pointer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2B0.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/sizeof_pointer.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"E:\VC++编程技巧与代码参考\代码\第01章\sizeof_pointer\sizeofpointer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2B0.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2B1.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/sizeof_pointer.pdb" /debug /machine:I386 /out:"Debug/sizeof_pointer.exe" /pdbtype:sept 
+".\Debug\sizeofpointer.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2B1.tmp"
+<h3>Output Window</h3>
+Compiling...
+sizeofpointer.cpp
+E:\VC++编程技巧与代码参考\代码\第01章\sizeof_pointer\sizeofpointer.cpp(5) : warning C4101: 'pFar' : unreferenced local variable
+E:\VC++编程技巧与代码参考\代码\第01章\sizeof_pointer\sizeofpointer.cpp(4) : warning C4101: 'pNear' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+sizeof_pointer.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

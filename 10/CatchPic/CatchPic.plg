@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CatchPic - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/CatchPic.res" /d "_DEBUG" /d "_AFXDLL" "E:\Visual C++编程技巧与代码参考\代码\第10章\CatchPic\CatchPic.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP162.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/CatchPic.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Visual C++编程技巧与代码参考\代码\第10章\CatchPic\CatchPic.cpp"
+"E:\Visual C++编程技巧与代码参考\代码\第10章\CatchPic\CatchPicDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP162.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP163.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/CatchPic.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Visual C++编程技巧与代码参考\代码\第10章\CatchPic\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP163.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/CatchPic.pdb" /debug /machine:I386 /out:"Debug/CatchPic.exe" /pdbtype:sept  ".\Debug\CatchPic.obj" ".\Debug\CatchPicDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\CatchPic.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CatchPic.cpp
+CatchPicDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+CatchPic.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

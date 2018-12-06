@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ODBC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ODBC.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"E:\VC++编程技巧与代码参考\代码\第08章\ODBC\ODBCDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAE.tmp" 
+Creating command line "link.exe Odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ODBC.pdb" /debug /machine:I386 /out:"Debug/ODBC.exe" /pdbtype:sept  ".\Debug\ODBC.obj" ".\Debug\ODBCDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\ODBC.res" "
+<h3>Output Window</h3>
+Compiling...
+ODBCDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ODBC.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

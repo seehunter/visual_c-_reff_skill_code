@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DynamicAddMenu - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/DynamicAddMenu.res" /d "_DEBUG" /d "_AFXDLL" "G:\书\《Visual C++编程技巧大全（大纲）》_NEW--最终版\本书源码\第6章\DynamicAddMenu\DynamicAddMenu.rc"" 
+Creating temporary file "C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSPAC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DynamicAddMenu.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"G:\书\《Visual C++编程技巧大全（大纲）》_NEW--最终版\本书源码\第6章\DynamicAddMenu\DynamicAddMenu.cpp"
+"G:\书\《Visual C++编程技巧大全（大纲）》_NEW--最终版\本书源码\第6章\DynamicAddMenu\MainFrm.cpp"
+"G:\书\《Visual C++编程技巧大全（大纲）》_NEW--最终版\本书源码\第6章\DynamicAddMenu\DynamicAddMenuDoc.cpp"
+"G:\书\《Visual C++编程技巧大全（大纲）》_NEW--最终版\本书源码\第6章\DynamicAddMenu\DynamicAddMenuView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSPAC.tmp" 
+Creating temporary file "C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSPAD.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DynamicAddMenu.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"G:\书\《Visual C++编程技巧大全（大纲）》_NEW--最终版\本书源码\第6章\DynamicAddMenu\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSPAD.tmp" 
+Creating temporary file "C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSPAE.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/DynamicAddMenu.pdb" /debug /machine:I386 /out:"Debug/DynamicAddMenu.exe" /pdbtype:sept 
+".\Debug\DynamicAddMenu.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MainFrm.obj"
+".\Debug\DynamicAddMenuDoc.obj"
+".\Debug\DynamicAddMenuView.obj"
+".\Debug\DynamicAddMenu.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\FENGJI~1\LOCALS~1\Temp\RSPAE.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DynamicAddMenu.cpp
+MainFrm.cpp
+DynamicAddMenuDoc.cpp
+DynamicAddMenuView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+DynamicAddMenu.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
